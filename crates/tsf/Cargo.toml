@@ -1,0 +1,10 @@
+[package]
+name = "tsf"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Rust port of TinySoundFont (tsf.h): a SoundFont 2 synthesizer. Matches the C build's output."
+
+[dependencies]

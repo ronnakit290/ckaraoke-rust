@@ -1,0 +1,12 @@
+[package]
+name = "ckaraoke-audio"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "CKaraoke audio output: pulls stereo audio from a shared Player on the default device."
+
+[dependencies]
+ckaraoke-core = { path = "../ckaraoke-core" }
+cpal = "0.18"

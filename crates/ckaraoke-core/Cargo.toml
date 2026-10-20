@@ -1,0 +1,18 @@
+[package]
+name = "ckaraoke-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "CKaraoke core: .ckr packs, MIDI lyrics and the song library. No audio, no UI."
+
+[dependencies]
+chacha20 = "0.10.2"
+flate2 = "1.1.10"
+getrandom = "0.2"
+hmac = "0.13.0"
+pbkdf2 = "0.13.0"
+sha2 = "0.11.1"
+zeroize = "1.9.1"
+tsf = { path = "../tsf" }

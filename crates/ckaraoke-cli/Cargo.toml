@@ -1,0 +1,17 @@
+[package]
+name = "ckaraoke-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "CKaraoke command-line tool (Rust port)."
+
+[[bin]]
+name = "ckaraoke"
+path = "src/main.rs"
+
+[dependencies]
+ckaraoke-audio = { version = "0.1.0", path = "../ckaraoke-audio" }
+ckaraoke-core = { version = "0.1.0", path = "../ckaraoke-core" }
+crossterm = "0.29"

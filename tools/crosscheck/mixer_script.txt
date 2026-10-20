@@ -1,0 +1,22 @@
+10 mute 2 1
+30 mute 2 0
+40 solo 0 1
+60 solo 0 0
+50 gain 1 0.5
+70 drumgain 36 0.25
+75 drummute 38 1
+80 transpose 5
+120 transpose -3
+130 speed 0.75
+160 speed 1
+170 seek 2000
+200 pause
+205 pause
+215 volume 0.5
+230 resetmixer
+240 resetdrums
+260 seek 0
+300 gain 9 1.25
+310 drumgain 42 1.5
+320 solo 9 1
+330 solo 9 0

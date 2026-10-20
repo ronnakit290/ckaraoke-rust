@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = ["crates/tsf", "crates/ckaraoke-core", "crates/ckaraoke-audio", "crates/ckaraoke-cli", "crates/ckaraoke-gui"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+rust-version = "1.87"
+
+[profile.release]
+opt-level = 3
